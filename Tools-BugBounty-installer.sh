@@ -20,7 +20,7 @@ clear;
 
 #---------Install essential packets
 echo -e "\e[93m\e[1m----> Installing essential and useful packets-tools";
-apt-get install -y git rename findutils terminator chromium-browser tmux
+apt-get install -y git rename findutils terminator chromium tmux
 echo -e "\e[32mDone!";
 sleep 1.5
 
