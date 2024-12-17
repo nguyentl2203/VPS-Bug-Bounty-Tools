@@ -61,7 +61,7 @@ echo -e "\e[32mDone! Masscan installed."; echo "";
 sleep 1.5
 #Naabu
 echo -e "\e[93m\e[1m----> Installing Naabu";
-go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu > /dev/null 2>&1 && ln -s ~/go/bin/naabu /usr/local/bin/;
+go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu > /dev/null 2>&1 && ln -s ~/go/bin/naabu /usr/local/bin/;
 echo -e "\e[32mDone! Naabu installed."; echo "";
 sleep 1.5
 
@@ -79,7 +79,7 @@ echo -e "\e[32mDone! Massdns installed."; echo "";
 sleep 1.5
 #Subfinder
 echo -e "\e[93m\e[1m----> Installing Subfinder";
-go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder > /dev/null 2>&1 && ln -s ~/go/bin/subfinder /usr/local/bin/;
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder > /dev/null 2>&1 && ln -s ~/go/bin/subfinder /usr/local/bin/;
 echo -e "\e[32mDone! Subfinder installed."; echo "";
 sleep 1.5
 #Knock
@@ -94,7 +94,7 @@ echo -e "\e[32mDone! LazyRecon installed."; echo "";
 sleep 1.5
 #Github-subdomains
 echo -e "\e[93m\e[1m----> Installing Github-subdomains";
-go get -u github.com/gwen001/github-subdomains > /dev/null 2>&1 && ln -s ~/go/bin/github-subdomains /usr/local/bin/;
+go install -u github.com/gwen001/github-subdomains > /dev/null 2>&1 && ln -s ~/go/bin/github-subdomains /usr/local/bin/;
 echo -e "\e[32mDone! Github-subdomains installed."; echo "";
 sleep 1.5
 #Sublist3r
@@ -112,12 +112,12 @@ echo -e "\e[32mDone! Crtndstry installed."; echo "";
 sleep 1.5
 #Assetfinder
 echo -e "\e[93m\e[1m----> Installing Assentfinder";
-go get -u github.com/tomnomnom/assetfinder > /dev/null 2>&1 && ln -s ~/go/bin/assetfinder /usr/local/bin/;
+go install -u github.com/tomnomnom/assetfinder > /dev/null 2>&1 && ln -s ~/go/bin/assetfinder /usr/local/bin/;
 echo -e "\e[32mDone! Assetfinder installed."; echo "";
 sleep 1.5
 #dnsx
 echo -e "\e[93m\e[1m----> Installing Dnsx";
-go get -v github.com/projectdiscovery/dnsx/cmd/dnsx > /dev/null 2>&1 && ln -s ~/go/bin/dnsx /usr/bin/;
+go install -v github.com/projectdiscovery/dnsx/cmd/dnsx > /dev/null 2>&1 && ln -s ~/go/bin/dnsx /usr/bin/;
 echo -e "\e[32mDone! Dnsx installed."; echo "";
 sleep 1.5
 #dnsgen
@@ -129,7 +129,7 @@ sleep 1.5
 #---------Install subdomain takeovers
 #SubOver
 echo -e "\e[93m\e[1m----> Installing SubOver";
-go get -v github.com/Ice3man543/SubOver > /dev/null 2>&1 && ln -s ~/go/bin/subover /usr/bin/;
+go install -v github.com/Ice3man543/SubOver > /dev/null 2>&1 && ln -s ~/go/bin/subover /usr/bin/;
 echo -e "\e[32mDone! SubOver installed."; echo "";
 sleep 1.5
 
@@ -144,7 +144,7 @@ echo -e "\e[32mDone! Dirsearch installed.";
 sleep 1.5
 #ffuf
 echo -e "\e[93m\e[1m----> Installing ffuf";
-go get -u github.com/ffuf/ffuf > /dev/null 2>&1 && ln -s ~/go/bin/ffuf /usr/local/bin/;
+go install -u github.com/ffuf/ffuf > /dev/null 2>&1 && ln -s ~/go/bin/ffuf /usr/local/bin/;
 echo -e "\e[32mDone! Ffuf installed.";
 sleep 1.5
 
@@ -188,7 +188,7 @@ echo -e "\e[32mDone! NoSqlmap installed."; echo "";
 sleep 1.5
 #Jeeves
 echo -e "\e[93m\e[1m----> Installing Jeeves";
-go get -u github.com/ferreiraklet/Jeeves > /dev/null 2>&1 && ln -s ~/go/bin/jeeves /usr/local/bin/;
+go install -u github.com/ferreiraklet/Jeeves > /dev/null 2>&1 && ln -s ~/go/bin/jeeves /usr/local/bin/;
 cd ~/tools/
 echo -e "\e[32mDone! Jeeves installed."; echo "";
 sleep 1.5
@@ -298,7 +298,7 @@ sleep 1.5
 #---------Vuln Scan
 #Nuclei
 echo -e "\e[93m\e[1m----> Installing Nuclei";
-go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei > /dev/null 2>&1 && ln -s ~/go/bin/nuclei /usr/local/bin/;
+go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei > /dev/null 2>&1 && ln -s ~/go/bin/nuclei /usr/local/bin/;
 cd ~/tools/
 echo -e "\e[32mDone! Nuclei installed."; echo "";
 sleep 1.5
@@ -319,17 +319,17 @@ echo -e "\e[32mDone! Dnsgen installed."; echo "";
 sleep 1.5
 #unew
 echo -e "\e[93m\e[1m----> Installing Unew";
-go get -u github.com/dwisiswant0/unew > /dev/null 2>&1 && ln -s ~/go/bin/unew /usr/local/bin/;
+go install -u github.com/dwisiswant0/unew > /dev/null 2>&1 && ln -s ~/go/bin/unew /usr/local/bin/;
 echo -e "\e[32mDone! Dnsgen installed."; echo "";
 sleep 1.5
 #gf
 echo -e "\e[93m\e[1m----> Installing gf";
-go get -u github.com/tomnomnom/gf > /dev/null 2>&1 && ln -s ~/go/bin/gf /usr/local/bin/;
+go install -u github.com/tomnomnom/gf > /dev/null 2>&1 && ln -s ~/go/bin/gf /usr/local/bin/;
 echo -e "\e[32mDone! Gf installed."; echo "";
 sleep 1.5
 #Http Probe
 echo -e "\e[93m\e[1m----> Installing httprobe";
-go get github.com/tomnomnom/httprobe > /dev/null 2>&1 && ln -s ~/go/bin/httprobe /usr/local/bin/;
+go install github.com/tomnomnom/httprobe > /dev/null 2>&1 && ln -s ~/go/bin/httprobe /usr/local/bin/;
 cd ~/tools/
 echo -e "\e[32mDone! Httprobe installed."; echo "";
 sleep 1.5
@@ -370,7 +370,7 @@ echo -e "\e[32mDone! Uro installed."; echo "";
 sleep 1.5
 #QSreplace
 echo -e "\e[93m\e[1m----> Installing qsreplace";
-go get -v github.com/tomnomnom/qsreplace > /dev/null 2>&1 && ln -s ~/go/bin/qsreplace /usr/local/bin/;
+go install -v github.com/tomnomnom/qsreplace > /dev/null 2>&1 && ln -s ~/go/bin/qsreplace /usr/local/bin/;
 cd ~/tools/
 echo -e "\e[32mDone! Qsreplace installed."; echo "";
 sleep 1.5
@@ -382,4 +382,4 @@ cd ~/tools/
 echo -e "\e[32mDone! Socialhunter installed."; echo "";
 sleep 1.5
 
-echo -e "\e[92mDone! Operazione Completata\e[0m\e[39m"; echo "";
+echo -e "\e[92mDone! Operation Completed\e[0m\e[39m"; echo "";
