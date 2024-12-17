@@ -27,7 +27,7 @@ sleep 1.5
 #---------Generic OS
 #Python, ruby and some packages
 echo -e "\e[93m\e[1m----> Installing Python,Ruby and some packages";
-apt-get install -y python python-pip python3 python3-pip python-dnspython python-dev python-setuptools virtualenv unzip make gcc libpcap-dev curl build-essential libcurl4-openssl-dev libldns-dev libssl-dev libffi-dev libxml2 jq libxml2-dev libxslt1-dev build-essential ruby-dev ruby-full libgmp-dev zlib1g-dev
+apt-get install -y python2-minimal python2 python-is-python3 python3 python3-pip python3-dnspython python3-dev python3-setuptools virtualenv unzip make gcc libpcap-dev curl build-essential libcurl4-openssl-dev libldns-dev libssl-dev libffi-dev libxml2 jq libxml2-dev libxslt1-dev build-essential ruby-dev ruby-full libgmp-dev zlib1g-dev
 echo -e "\e[32mDone!";
 sleep 1.5
 
